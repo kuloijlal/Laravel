@@ -25,7 +25,7 @@ class RecipeController extends Controller
                 'idresep'=>$recipe->idresep,
                 'judul'=>$recipe->judul,
                 'gambar'=>url($recipe->gambar),
-                'name'=>$recipe->user->name
+                'nama'=>$recipe->user->name
             ]);
         }
         return response()->json($data,200);
