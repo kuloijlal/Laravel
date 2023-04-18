@@ -9,7 +9,7 @@ use App\Models\Tool;
 use App\Models\Ingredient;
 use App\Models\RecipeView;
 use App\Models\Rating;
-
+use Helpers\MessageError;
 
 class RecipeController extends Controller
 {
